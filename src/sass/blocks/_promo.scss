@@ -1,0 +1,50 @@
+.promo {
+  padding: 70px 0 312px 0;
+  &__title {
+    margin-bottom: 70px;
+  }
+  &__block {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  &__item-left {
+    max-width: 600px;
+    margin-right: 190px;
+  }
+  &__item-right {
+    max-width: 600px;
+    margin-top: 87px;
+    margin-right: 262px;
+  }
+  &__descr {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 130%;
+    color: $main-color;
+    p {
+      margin-top: 8px;
+    }
+  }
+  &__image-right {
+    width: 860px;
+  }
+  &__image-left {
+    width: 600px;
+    margin-right: 188px;
+    margin-top: 87px;
+  }
+  &__image-right,
+  &__image-left {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+.content {
+  display: none;
+}
+
+.content-active {
+  display: block;
+}

@@ -1,0 +1,19 @@
+.new-page {
+  padding: 100px 0 231px 0;
+  &__block {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__item-left {
+    margin-right: 0;
+    margin-left: 128px;
+  }
+  &__item-right {
+    margin-right: 0;
+    margin-left: 261px;
+  }
+  &__image-left {
+    margin-right: 0;
+    margin-left: 128px;
+  }
+}
